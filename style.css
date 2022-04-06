@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #060606;
+	width: 100%;
+	height: 100%;
+}
+
+content {
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	width: 100%;
+}
+
+#title {
+	margin: 1.2vh 1.2vw;
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#links a {
+	padding: 1vh 1vw;
+}
