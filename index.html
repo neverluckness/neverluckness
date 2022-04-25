@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta property="og:name" content="× justKira">
 	<meta property="og:description" content="Just another web-project :>">
 	<meta property="og:url" content="https://justkira.ru">
 	<meta property="og:image" content="./OGImage.png">
-	<meta property="og:image:width" content="1920"/>
-	<meta property="og:image:height" content="925"/>
+	<meta property="og:image:width" content="1920">
+	<meta property="og:image:height" content="925">
 	<meta name="theme-color" content="#8600FF">
-	<meta property="og:site_name" content="× justKira"/>
+	<meta property="og:site_name" content="× justKira">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/png" href="void.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="background.css">
-	<link rel="stylesheet" type="text/css" href="font-cfg.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
 	<title>× justKira</title>
 </head>
-<body class="dark-mode">
-	<div id="background"></div>
+<body>
+	<div class="background"></div>
+	<audio id="player" src="Pain-and-Pleasure.mp3" title="Pain & Pleasure" controls hidden></audio>
 	<content>
-		<p id="title">Hello, cutie! <3</p>
+		<p id="title">First Phase</p>
 		<div id="content">
-			<p>And welcome to <a>justKira</a>'s project website!</p>
-			<p>Now this site is empty, but soon there will be a lot of interesting features.</p>
-			<p>In our Discord or Telegram, you can get more information.</p>
+			<a onclick="play()">× justKira</a>
 		</div>
 	</content>
+	<div id="vizualizer">
+		<div class="viz-bar"></div>
+		<div id="song">
+		<p id="audio-title">Pain and Pleasure</p>
+		<p id="audio-author">M()re ft. WOODJU</p>
+		</div>
+	</div>
 	<footer>
 		<p id="links"><a target="_blank" href="https://discord.gg/BtPKrRDKQv"><i class="fa fa-discord-alt" aria-hidden="true"></i></a><a target="_blank" href="https://t.me/+rczyWr2VtYkzZGNi"><i class="fa fa-telegram" aria-hidden="true"></i></a></p>
 		<p id="mail">support@justkira.ru</p>

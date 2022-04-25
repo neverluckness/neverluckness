@@ -1,23 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
+	font-size: 2vh;
+	text-shadow: 0 0 .3em black, 0 0 .3em black, 0 0 1em black;
 }
 
 body {
 	background: #060606;
 	width: 100%;
 	height: 100%;
+	font-family: "Nunito", sans-serif;
+	color: #f0f0f0;
 }
 
 content {
 	position: absolute;
 	text-align: center;
-	top: 30%;
+	top: 35%;
 	width: 100%;
 }
 
 #title {
-	margin: 1.2vh 1.2vw;
+	margin: 1.2vh 1.2vw -1.5vh 1.2vw;
+	font-size: 10vh;
+	font-weight: bold;
 }
 
 footer {
@@ -29,4 +37,60 @@ footer {
 
 #links a {
 	padding: 1vh 1vw;
+	color: #f0f0f0;
+	font-size: 3.5vh;
+}
+
+#mail {
+	font-size: 2.5vh;
+}
+
+.background {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-image: url('background.jpg');
+	background-position: center center;
+	background-size: cover;
+	filter: blur(.2em);
+}
+
+#vizualizer {
+	position: absolute;
+	bottom: 12.5vh;
+	width: 100vw;
+	text-align: center;
+	visibility: visible;
+}
+
+.viz-bar {
+	bottom: 0;
+	display: inline-block;
+	background: white;
+	height: 0vh;
+	width: 1vh;
+	border-radius: 1em;
+	margin: 0 .05vw;
+	transition: 0.1s;
+}
+
+#song {
+	position: absolute;
+	bottom: -3vh;
+	width: 100vw;
+	text-align: center;
+	color: transparent;
+	transition: 3s;
+}
+
+#audio-author {
+	font-size: 1vh;
+	margin-top: -.5vh;
+	text-shadow: 0 0 0 transparent;
+}
+
+#audio-title {
+	text-shadow: 0 0 0 transparent;
 }
